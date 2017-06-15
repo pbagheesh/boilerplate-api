@@ -1,3 +1,6 @@
 node_modules
 .tmp
 server/.env
+
+#ignore all DS Store files
+*.DS_Store

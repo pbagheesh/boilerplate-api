@@ -4,7 +4,6 @@ const Hoek = require('hoek');
 const Glue = require('glue');
 const Labbable = require('labbable');
 const Manifest = require('./manifest');
-
 const labbable = module.exports = new Labbable();
 const manifest = Manifest.get('/', process.env);
 
