@@ -4,8 +4,9 @@ const Hoek = require('hoek');
 const Glue = require('glue');
 const Labbable = require('labbable');
 const Manifest = require('./manifest');
-
 const labbable = module.exports = new Labbable();
+
+
 
 Glue.compose(Manifest, { relativeTo: __dirname }, (err, server) => {
 
@@ -13,6 +14,15 @@ Glue.compose(Manifest, { relativeTo: __dirname }, (err, server) => {
 
     // Pass server along to labbable
     labbable.using(server);
+
+    server.route({
+      method: "GET",
+      path: "/",
+      handler: function(request, reply) {
+        reply("Test new route")
+      }
+
+    })
 
     server.initialize((err) => {
 
