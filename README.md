@@ -44,9 +44,13 @@ $ git commit -am "First commit :o)"
 
 ## Flavors
 
-hapi pal makes it easy to use the boilerplate as a jumping-off point for several different types of projects, which we call "flavors" (:lollipop: :fries: :doughnut: :poultry_leg:).  Flavors may be mixed and matched, or skipped altogether.  Only utilize them if they'll be useful to you!
+hapi pal makes it easy to use the boilerplate as a jumping-off point for several different types of projects, which we call "flavors" (:lollipop: :fries: :doughnut: :poultry_leg:).  
 
-They're simple little buggers.  We've simply tagged commits that we think will contain useful code patches depending on what direction you'd like to take your project.
+Think of flavors as extensions that are injected directly into your code. Take the swagger flavor, it adds a neat feature that allows you to view and test your API routes at localhost: yourhost /documentation.
+
+Flavors may be mixed and matched, or skipped altogether.  Only utilize them if they'll be useful to you!
+
+**To start *** pull all the flavors as shown below:
 
 **Pull down the latest flavors**
 ```sh
