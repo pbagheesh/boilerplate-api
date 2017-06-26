@@ -50,9 +50,7 @@ Think of flavors as extensions that are injected directly into your code. Take t
 
 Flavors may be mixed and matched, or skipped altogether.  Only utilize them if they'll be useful to you!
 
-**To start *** pull all the flavors as shown below:
-
-**Pull down the latest flavors**
+**Start: by pulling down the latest flavours **
 ```sh
 git fetch pal --tags
 ```
