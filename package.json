@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "boom": "4.x.x",
+    "hapi-swagger": "^7.7.0",
     "haute-couture": "2.x.x",
-    "joi": "10.x.x"
+    "inert": "^4.2.0",
+    "joi": "10.x.x",
+    "vision": "^4.1.1"
   },
   "devDependencies": {
     "code": "3.x.x",
